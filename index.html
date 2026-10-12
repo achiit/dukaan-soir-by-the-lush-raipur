@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOIR – by the lush | Restaurant &amp; Lounge, VIP Road, Temri, Raipur</title>
+<meta name="description" content="SOIR – by the lush is a contemporary dine-in restaurant and lounge on VIP Road, Temri, Raipur. Call or WhatsApp to reserve a table.">
+<meta name="theme-color" content="#1E1B18">
+<meta property="og:title" content="SOIR – by the lush, Raipur">
+<meta property="og:description" content="Contemporary dining and evening lounge on VIP Road, Temri, Raipur.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E1B18'/%3E%3Cpath d='M40 14a19 19 0 1 0 0 36 15 15 0 0 1 0-36z' fill='%23C49A4A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4EFE6;--ink:#1E1B18;--accent:#A8782F;--accent2:#2F3B33;--line:#D9D0C0;--soft:#EAE3D6;
+--d:'Cormorant Garamond',Georgia,serif;--b:'DM Sans',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--b);background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+img{max-width:100%;display:block}a{color:inherit}
+h1,h2,h3{font-family:var(--d);font-weight:600;line-height:1.1}
+h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:14px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+section{padding:90px 0}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:14px}
+.moon{width:22px;height:22px;flex:none}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:700;text-decoration:none;font-size:.95rem;border:1.5px solid var(--ink);transition:.2s}
+.btn.wa{background:var(--accent2);border-color:var(--accent2);color:#F4EFE6}
+.btn.wa:hover{background:var(--ink)}
+.btn.out:hover{background:var(--ink);color:var(--bg)}
+.btn.big{padding:18px 34px;font-size:1.1rem}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(244,239,230,.96);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:66px;gap:14px}
+.logo{font-family:var(--d);font-size:1.7rem;font-weight:600;text-decoration:none;letter-spacing:.14em}
+.logo small{font-family:var(--b);font-size:.6rem;letter-spacing:.2em;display:block;margin-top:-6px;color:var(--accent);font-weight:700}
+nav{display:flex;gap:22px}nav a{text-decoration:none;font-size:.92rem;font-weight:500}nav a:hover{color:var(--accent)}
+.hbtns{display:flex;gap:8px}.hbtns .btn{padding:8px 16px;font-size:.85rem}
+.burger{display:none;background:none;border:0;width:40px;height:40px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--ink);margin:7px 8px}
+/* hero */
+.hero{padding:60px 0 90px;position:relative;overflow:hidden}
+.hg{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.4vw,4.9rem);margin-bottom:20px}
+.hero h1 em{color:var(--accent);font-style:italic}
+.proof{font-size:1.05rem;max-width:480px;margin-bottom:26px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.micro{font-size:.85rem;color:#5b544b}
+.hv{position:relative}
+.hv img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:220px 220px 14px 14px;background:var(--accent2)}
+.hv .moon-big{position:absolute;right:-26px;top:-26px;width:110px;height:110px;z-index:2}
+/* trust */
+.trust{background:var(--ink);color:var(--bg);padding:46px 0}
+.tg{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:left}
+.tg b{font-family:var(--d);font-size:2.3rem;color:#C49A4A;display:block;line-height:1}
+.tg span{font-size:.88rem;opacity:.85}
+/* services */
+.sg{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:36px}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:26px;grid-column:span 2;display:flex;flex-direction:column;gap:10px}
+.card.w{grid-column:span 3}.card.n{grid-column:span 4;background:var(--accent2);color:var(--bg);border-color:var(--accent2)}
+.card svg{width:34px;height:34px}
+.card h3{font-size:1.6rem}
+.card p{font-size:.95rem;flex:1}
+.price{font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.card.n .price{color:#C49A4A}
+.card .btn{align-self:flex-start;padding:9px 18px;font-size:.85rem}
+.card.n .btn{border-color:var(--bg);color:var(--bg)}
+/* about */
+.about{background:var(--soft)}
+.ag{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;align-items:start}
+.av{width:150px;height:150px;border-radius:50%;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-family:var(--d);font-size:3.4rem;font-weight:600}
+.ag p{margin-bottom:14px;max-width:620px}
+.diff{list-style:none;margin-top:20px;display:grid;gap:10px}
+.diff li{display:flex;gap:12px;align-items:flex-start}
+.diff svg{width:18px;height:18px;flex:none;margin-top:4px}
+/* gallery */
+.gg{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:150px;gap:12px;margin-top:34px}
+.gg img{width:100%;height:100%;object-fit:cover;border-radius:12px;background:var(--line)}
+.gg .a{grid-column:span 3;grid-row:span 2}.gg .b{grid-column:span 3}.gg .c{grid-column:span 2}.gg .d{grid-column:span 2}.gg .e{grid-column:span 2;grid-row:span 2}.gg .f{grid-column:span 4}
+/* reviews */
+.rg{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px;margin-top:34px}
+.rv{border:1px solid var(--line);border-radius:14px;padding:24px;background:var(--soft)}
+.rv h3{font-size:1.4rem;margin-bottom:8px}.rv p{font-size:.94rem}
+.stars{display:flex;gap:3px;margin-bottom:12px}.stars svg{width:18px;height:18px}
+/* pricing */
+.pl{margin-top:30px;max-width:760px;border-top:1px solid var(--ink)}
+.pl div{display:flex;justify-content:space-between;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.pl strong{font-family:var(--d);font-size:1.35rem;font-weight:600}.pl span{color:#5b544b;font-size:.95rem}
+.pl em{font-style:normal;font-weight:700;color:var(--accent);white-space:nowrap}
+/* contact */
+.cg{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;margin-top:30px}
+.map{width:100%;height:100%;min-height:340px;border:0;border-radius:14px;filter:sepia(.25)}
+.hrs{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;margin:14px 0 22px;font-size:.95rem}
+.hrs span:nth-child(odd){font-weight:700}
+.cm{display:grid;gap:8px;margin-bottom:20px}
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:70px 0 120px}
+.fg{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:34px;margin-bottom:40px}
+footer h3{font-size:2rem;letter-spacing:.12em}
+footer p,footer a{font-size:.92rem;opacity:.85}
+footer nav{flex-direction:column;gap:8px}
+.built{border-top:1px solid #3a352f;padding-top:20px;font-size:.82rem;opacity:.8;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.sticky{display:none}
+@media(max-width:1080px){.sg .card,.sg .card.w,.sg .card.n{grid-column:span 3}.tg{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:820px){
+section{padding:70px 0}
+nav{display:none;position:absolute;top:66px;left:0;right:0;background:var(--bg);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);gap:14px}
+nav.open{display:flex}.burger{display:block}.hbtns{display:none}
+.hg,.ag,.cg,.fg,.rg{grid-template-columns:1fr}
+.hv{order:-1;max-width:340px}.hv .moon-big{right:-10px;width:80px;height:80px}
+.gg{grid-template-columns:repeat(2,1fr);grid-auto-rows:140px}
+.gg img{grid-column:span 1!important;grid-row:span 1!important}.gg .a{grid-column:span 2!important}
+.sticky{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);padding:10px;gap:10px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+.sticky a{flex:1;justify-content:center;padding:14px;border-color:var(--bg);color:var(--bg)}
+.sticky a.wa{background:#2F7A4A;border-color:#2F7A4A}
+}
+@media(max-width:520px){
+.sg .card,.sg .card.w,.sg .card.n{grid-column:span 6}
+.tg b{font-size:1.9rem}.btn.big{width:100%;justify-content:center}.ctas .btn{flex:1;justify-content:center}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="moon" viewBox="0 0 48 48"><path d="M30 5a19 19 0 1 0 0 38 15 15 0 0 1 0-38z" fill="currentColor"/><circle cx="38" cy="12" r="2" fill="currentColor"/><circle cx="42" cy="22" r="1.3" fill="currentColor"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.8-6.3 3.8 1.7-7L2 9.2l7.1-.6z" fill="#A8782F"/></symbol>
+</defs>
+</svg>
+
+<header>
+<div class="wrap hd">
+<a class="logo" href="#top" aria-label="SOIR home">SOIR<small>BY THE LUSH</small></a>
+<nav id="nav" aria-label="Main">
+<a href="#services">Experience</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#menu">Menu</a><a href="#contact">Visit</a>
+</nav>
+<div class="hbtns">
+<a class="btn out" data-call href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Call</a>
+<a class="btn wa" data-wa data-msg="Hi SOIR, I'd like to book a table." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap hg">
+<div>
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>Temri, Raipur</div>
+<h1>Dinner, drinks and an <em>evening</em> worth dressing up for!</h1>
+<p class="proof">SOIR – by the lush is a contemporary restaurant and lounge on VIP Road, built for long dinners, birthdays and slow weekends.</p>
+<div class="ctas">
+<a class="btn wa big" data-wa data-msg="Hi SOIR, I'd like to reserve a table. Please share availability." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Reserve on WhatsApp</a>
+<a class="btn out big" data-call href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Call us</a>
+</div>
+<p class="micro">On VIP Road, Temri &middot; Dine-in &middot; Find us on Instagram @soir.bythelush</p>
+</div>
+<div class="hv">
+<svg class="moon-big" style="color:#A8782F"><use href="#moon"/></svg>
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop" alt="Warm, softly lit restaurant interior">
+</div>
+</div>
+</section>
+
+<div class="trust"><div class="wrap tg">
+<div><b>1</b><span>address to remember: by The Lush, VIP Road</span></div>
+<div><b>Temri</b><span>Raipur, Chhattisgarh</span></div>
+<div><b>Dine-in</b><span>food, drinks and lounge seating</span></div>
+<div><b>@soir</b><span>.bythelush on Instagram</span></div>
+</div></div>
+
+<section id="services">
+<div class="wrap">
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>The experience</div>
+<h2>Come hungry, stay for the evening</h2>
+<div class="sg">
+<article class="card n"><svg style="color:#C49A4A"><use href="#moon"/></svg><h3>Restaurant dine-in</h3><p>A proper sit-down dinner in a contemporary space, whether it is a family meal or a date night.</p><span class="price">Menu prices on request</span><a class="btn" data-wa data-msg="Hi SOIR, please share your dine-in menu and prices." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Ask for menu</a></article>
+<article class="card w"><svg style="color:#A8782F"><use href="#moon"/></svg><h3>Food &amp; meals</h3><p>Starters to mains, plated for sharing. Ask us what is popular this week.</p><span class="price">Prices on request</span><a class="btn out" data-wa data-msg="Hi SOIR, what are your most popular food items today?" href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card w"><svg style="color:#A8782F"><use href="#moon"/></svg><h3>Beverages &amp; drinks</h3><p>Drinks to go with the evening, from easy sips to something special.</p><span class="price">Prices on request</span><a class="btn out" data-wa data-msg="Hi SOIR, please share your beverage menu." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><svg style="color:#A8782F"><use href="#moon"/></svg><h3>Premium ambience</h3><p>Low light, good music and seating made for conversation.</p><span class="price">Walk-ins and tables</span><a class="btn out" data-wa data-msg="Hi SOIR, I'd like to book a table for a group. Please share details." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Book a table</a></article>
+<article class="card"><svg style="color:#A8782F"><use href="#moon"/></svg><h3>Social dining</h3><p>Birthdays, catch-ups and small celebrations with friends.</p><span class="price">Ask for group options</span><a class="btn out" data-wa data-msg="Hi SOIR, I'm planning a small celebration. What options do you have?" href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Plan with us</a></article>
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="wrap ag">
+<div><div class="av" aria-hidden="true">S</div></div>
+<div>
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>About SOIR</div>
+<h2>Soir means evening</h2>
+<p>The name is French for evening, and that is what we are built around: the hour when the day slows down and the table fills up.</p>
+<p>We sit on VIP Road in Temri, beside The Lush, so you can find us easily after work or on a weekend drive. Our Instagram, @soir.bythelush, is where we share new looks and updates.</p>
+<ul class="diff">
+<li><svg style="color:#A8782F"><use href="#moon"/></svg>A contemporary, atmospheric space with a distinct identity</li>
+<li><svg style="color:#A8782F"><use href="#moon"/></svg>Food and drinks under one roof</li>
+<li><svg style="color:#A8782F"><use href="#moon"/></svg>Easy to find on VIP Road, Temri</li>
+<li><svg style="color:#A8782F"><use href="#moon"/></svg>Quick table help on WhatsApp</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>Gallery</div>
+<h2>A look at the evening</h2>
+<div class="gg">
+<img class="a" loading="lazy" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop" alt="Restaurant interior with warm lighting">
+<img class="b" loading="lazy" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop" alt="Plated restaurant dish">
+<img class="c" loading="lazy" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&auto=format&fit=crop" alt="Cocktails on a bar">
+<img class="d" loading="lazy" src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&auto=format&fit=crop" alt="Dining tables set for dinner">
+<img class="e" loading="lazy" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&auto=format&fit=crop" alt="Restaurant seating in low light">
+<img class="f" loading="lazy" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop" alt="Fresh food on a table">
+</div>
+</div>
+</section>
+
+<section id="reviews" style="background:var(--soft)">
+<div class="wrap">
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>Guest reviews</div>
+<h2>Read what guests say on Google</h2>
+<div class="rg">
+<div class="rv"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><h3>Real, recent reviews</h3><p>We do not print reviews we cannot prove. Our Google listing shows what guests actually wrote, with dates and photos.</p></div>
+<div class="rv"><h3>See the photos</h3><p>Guests upload pictures of the food, the drinks and the room, which is the quickest way to judge the place.</p></div>
+<div class="rv"><h3>Check before you come</h3><p>Open the listing for the latest ratings, directions and any timing updates.</p><p style="margin-top:12px"><a class="btn out" href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Open Google Maps</a></p></div>
+</div>
+</div>
+</section>
+
+<section id="menu">
+<div class="wrap">
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>Menu &amp; pricing</div>
+<h2>Straight answers, no surprises</h2>
+<p>Our menu changes, so we share the current one directly. Ask and we will send it on WhatsApp.</p>
+<div class="pl">
+<div><div><strong>Food &amp; meals</strong><span>Starters, mains and sides</span></div><em>Ask for menu</em></div>
+<div><div><strong>Beverages</strong><span>Drinks and non-alcoholic options</span></div><em>Ask for menu</em></div>
+<div><div><strong>Group &amp; celebration tables</strong><span>Share group size and date</span></div><em>Ask for options</em></div>
+</div>
+<p style="margin-top:28px"><a class="btn wa big" data-wa data-msg="Hi SOIR, please send me your current menu with prices." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Get the menu on WhatsApp</a></p>
+</div>
+</section>
+
+<section id="contact" class="about">
+<div class="wrap">
+<div class="eyebrow"><svg class="moon"><use href="#moon"/></svg>Visit us</div>
+<h2>Find SOIR on VIP Road</h2>
+<div class="cg">
+<iframe class="map" title="Map to SOIR by the lush" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=SOIR%20by%20the%20lush%2C%20VIP%20Road%2C%20Temri%2C%20Raipur%2C%20Chhattisgarh&amp;output=embed"></iframe>
+<div>
+<p><strong>SOIR – by the lush</strong><br>VIP Road, Temri, Raipur, Chhattisgarh, India</p>
+<div class="hrs">
+<span>Monday to Friday</span><span>Message for timings</span>
+<span>Saturday</span><span>Message for timings</span>
+<span>Sunday</span><span>Message for timings</span>
+</div>
+<div class="cm">
+<a data-call href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Phone: see Google Maps listing</a>
+<a href="https://www.instagram.com/soir.bythelush/" target="_blank" rel="noopener">Instagram: @soir.bythelush</a>
+<a href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Get directions</a>
+</div>
+<a class="btn wa" data-wa data-msg="Hi SOIR, what time are you open today?" href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">Ask today's timings</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fg">
+<div><h3>SOIR</h3><p>by the lush &middot; Dinner, drinks and evenings in Raipur.</p><p style="margin-top:20px"><a class="btn wa big" data-wa data-msg="Hi SOIR, I'd like to book a table." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">WhatsApp us</a></p></div>
+<nav aria-label="Footer"><a href="#services">Experience</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#menu">Menu</a><a href="#contact">Visit</a></nav>
+<div><p>VIP Road, Temri<br>Raipur, Chhattisgarh</p><p style="margin-top:10px"><a href="https://www.instagram.com/soir.bythelush/" target="_blank" rel="noopener">Instagram @soir.bythelush</a></p></div>
+</div>
+<div class="built"><span>&copy; <span id="yr"></span> SOIR – by the lush</span><span>built with ❤️ by 21.coders</span></div>
+</div>
+</footer>
+
+<div class="sticky">
+<a class="btn" data-call href="https://maps.app.goo.gl/5dQvHVAch1ReSNdq7" target="_blank" rel="noopener">Call</a>
+<a class="btn wa" data-wa data-msg="Hi SOIR, I'd like to book a table." href="https://ig.me/m/soir.bythelush" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+// Add the real number (10 digits, no +91) to switch every Call/WhatsApp button to direct tel: and wa.me links.
+var PHONE="", WHATSAPP="";
+document.getElementById("yr").textContent=new Date().getFullYear();
+var nav=document.getElementById("nav"),bg=document.getElementById("burger");
+bg.onclick=function(){var o=nav.classList.toggle("open");bg.setAttribute("aria-expanded",o)};
+nav.querySelectorAll("a").forEach(function(a){a.onclick=function(){nav.classList.remove("open")}});
+var w=WHATSAPP||PHONE;
+if(PHONE)document.querySelectorAll("[data-call]").forEach(function(a){a.href="tel:+91"+PHONE;a.removeAttribute("target");if(a.textContent.indexOf("Phone")===0)a.textContent="Phone: +91 "+PHONE});
+if(w)document.querySelectorAll("[data-wa]").forEach(function(a){a.href="https://wa.me/91"+w+"?text="+encodeURIComponent(a.dataset.msg)});
+document.querySelectorAll("img").forEach(function(i){i.onerror=function(){i.style.visibility="hidden"}});
+</script>
+</body>
+</html>
